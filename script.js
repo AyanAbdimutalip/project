@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('scroll', () => {
     if(window.scrollY > 700){
-      header.style.transition = "all 1s"
+        header.style.transition = "all 1s"
         header.style.width = '100%'
         header.style.height = '70px'
         header.style.background = "linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(171,39,39,1) 0%, rgba(189,55,83,1) 100%) "
