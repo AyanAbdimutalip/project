@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const numberOfFlakes = 400;
+const numberOfFlakes = 401;
 const flakes = [];
 
 function createFlakes() {
